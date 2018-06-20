@@ -1,0 +1,50 @@
+/*!
+Theme Name: WordPress Starter Theme Gulp Sass
+Theme URI: http://gravityux.com
+Author: Luke Hertzler
+Author URI: http://lukehertzler.com
+Description: A WordPress starter theme to quickly beging developing custom themes with Gulp and Sass.
+Version: 1.0
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: _lhstartertheme
+Domain Path: /languages/
+Tags:
+
+ _lhstartertheme is based on Underscores http://underscores.me/, (C) 2012-2018 Automattic, Inc. and WordPress Starter Theme by Matt Banks http://mattbanks.me.
+
+*/
+
+// Reset, Variables, Mixins, Etc
+// DO NOT EDIT ORDER OF FILES
+@import "base/mixins";
+@import "base/variables";
+@import "base/normalize";
+@import "base/skeleton";
+
+// Globals
+@import "base/h5bp-global";
+@import "partials/general";
+@import "partials/grid";
+
+// Layout
+@import "partials/layout";
+@import "partials/footer";
+
+// Menus, Page and Post styles
+@import "partials/menus";
+@import "partials/page-post";
+
+// Page Templates
+@import "partials/page-home";
+@import "partials/page-blog";
+
+// Widgets, Search, Comments, Forms, Sharing
+@import "partials/widgets";
+@import "partials/comments";
+@import "partials/forms";
+
+// Helper Classes, Print, Etc
+@import "base/helpers";
+@import "base/print";
+@import "partials/responsive";
