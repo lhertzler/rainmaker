@@ -27,3 +27,121 @@
 	clear: both;
 	width: 100%;
 }
+
+.hero-button {
+	color: white;
+	z-index: 66;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+}
+
+.hexagon {
+  position: absolute;
+  width: 74px;
+  height: 42.72px;
+  background-color: transparent;
+  margin: 21.36px 0;
+  border-left: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+	z-index: 99;
+	bottom: 3vw;
+	left: 47%;
+
+	&:hover {
+
+		i {
+			padding-top: 15px;
+		}
+	}
+
+	i {
+		color: #fff;
+		padding: 10px 26px;
+		transition: all .15s linear;
+	}
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 52.33px;
+  height: 52.33px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 8.8370px;
+}
+
+.hexagon:before {
+  top: -26.1630px;
+  border-top: solid 2.8284px #ffffff;
+  border-right: solid 2.8284px #ffffff;
+}
+
+.hexagon:after {
+  bottom: -26.1630px;
+  border-bottom: solid 2.8284px #ffffff;
+  border-left: solid 2.8284px #ffffff;
+}
+
+.boxed {
+		@include pagewidth;
+}
+
+.newsletter {
+	background-color: $orange;
+}
+
+.rain-is {
+	height: 100vh;
+	position: relative;
+
+	& div:nth-of-type(3) {
+		background-position: 83% 49%;
+	}
+
+	.columns {
+		margin-left: 0;
+		width: 33.333333333%;
+
+
+	}
+
+	&> div {
+		height: 100vh;
+		position: relative;
+	}
+
+}
+
+.newsletter {
+
+	padding-top: 55px;
+	padding-bottom: 90px;
+	text-align: center;
+
+	form {
+		margin: 0;
+
+		input {
+			margin: 0;
+		  border-radius: 3px;
+		  background-color: rgb(255, 255, 255);
+		  box-shadow: 1px 1.732px 6px 0px rgba(0, 0, 0, 0.15);
+			border: 1px solid transparent;
+			margin: 0 6px;
+			padding: 4px;
+		}
+	}
+
+		h2 {
+	  font-size: 36px;
+	  color: rgb(255, 255, 255);
+	  line-height: 1.25;
+	}
+
+}
