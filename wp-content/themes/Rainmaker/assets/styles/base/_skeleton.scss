@@ -246,6 +246,7 @@ button
     position: relative;
     border-right: none;
     margin: 20px 0;
+    left: 44px;
   }
 
   .button.ghost::before {
@@ -253,7 +254,7 @@ button
     background: transparent;
     color: white;
     top: -1px;
-    height: 46px;
+    height: 45px;
   }
 
   .button.ghost::after {

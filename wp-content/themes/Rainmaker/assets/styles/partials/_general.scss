@@ -166,3 +166,20 @@ address {
 .infinity-end.neverending .site-footer {
 	display: block;
 }
+
+@keyframes goDown {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+@-webkit-keyframes goDown {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}

@@ -13,10 +13,10 @@
 	width: 100%;
 }
 
-.site-main {
+/*.site-main {
 	margin: 0 25% 0 0;
 }
-
+*/
 .site-content .widget-area {
 	float: right;
 	overflow: hidden;
@@ -48,17 +48,9 @@
 	bottom: 3vw;
 	left: 47%;
 
-	&:hover {
-
-		i {
-			padding-top: 15px;
-		}
-	}
-
 	i {
 		color: #fff;
 		padding: 10px 26px;
-		transition: all .15s linear;
 	}
 }
 
@@ -86,6 +78,10 @@
   bottom: -26.1630px;
   border-bottom: solid 2.8284px #ffffff;
   border-left: solid 2.8284px #ffffff;
+}
+
+.hexagon:hover {
+	animation: goDown .5s infinite alternate;
 }
 
 .boxed {
