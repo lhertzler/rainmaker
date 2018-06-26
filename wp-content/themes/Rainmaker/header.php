@@ -31,8 +31,8 @@
 	<header id="masthead" class="site-header">
 		<div class="three columns">
 			<div class="site-branding">
-			<a href="/"><h1 class='site title'>The Rainmaker Project</h1><img class="white" src="<?php echo home_url(); ?>/wp-content/uploads/2018/06/large-logo.png" alt="RAINMAKER"></a>
-			<a href="/"><img class="color" src="<?php echo home_url(); ?>/wp-content/uploads/2018/06/rainmaker-logo-color.png" alt="RAINMAKER"></a>
+			<a href="<?php echo home_url(); ?>"><h1 class='site title'>The Rainmaker Project</h1><img class="white" src="<?php echo home_url(); ?>/wp-content/uploads/2018/06/large-logo.png" alt="RAINMAKER"></a>
+			<a href="<?php echo home_url(); ?>"><img class="color" src="<?php echo home_url(); ?>/wp-content/uploads/2018/06/rainmaker-logo-color.png" alt="RAINMAKER"></a>
 			</h1>
 		</div><!-- .site-branding -->
 	</div>
