@@ -13,12 +13,12 @@
    transition: all .25s linear;
 
    img.color { position: relative; top: -157px; transition: all .25s linear;}
-   img.white { position: relative; top: 0px; transition: all .25s linear; }
+   img.white { position: relative; top: 0px; transition: all .25s linear; max-height: 84px;}
 
    &.alt {
      background-color: #ffffff;
 
-     img.white { top: 100px; }
+     img.white { top: 100px;  }
      img.color { top: -84px; }
      .main-navigation {
 
