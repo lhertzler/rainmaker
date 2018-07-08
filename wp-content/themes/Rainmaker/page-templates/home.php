@@ -37,7 +37,8 @@ if( have_rows('homepage') ):
                 // check if the repeater field has rows of data
                 if( have_rows('third_blocks') ):
 
-                 	echo '<div class="container" id="thirds">';
+                 	echo '<div id="thirds">';
+									echo '<div class="container">';
                   $i = 0;
                     while ( have_rows('third_blocks') ) : the_row();
 
@@ -62,7 +63,7 @@ if( have_rows('homepage') ):
                         echo '<style>.button.\3' . $i . '::before{border-color: ' . $color . '; color: ' . $color . ';}</style>';
 
                     endwhile;
-                    echo '</div>';
+                    echo '</div></div>';
                 else :
 
                     // no rows found

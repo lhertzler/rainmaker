@@ -6,11 +6,28 @@
 	background-color: $blue;
 	color: white !important;
 	padding-top: 70px;
+	position: relative;
 
 	p { color: white; }
 
 	> div {
 			padding: 0 60px;
+	}
+
+	&::before {
+		top: -55px;
+		content: "";
+		display: block;
+		height: 55px;
+		left: 0;
+		position: absolute;
+		right: 0;
+		-webkit-transform: skewY(-1.5deg);
+		transform: skewY(-1.5deg);
+		-webkit-transform-origin: 100%;
+		transform-origin: 100%;
+		z-index: 99999999;
+		background: $blue;
 	}
 
 	div:nth-of-type(2) {
